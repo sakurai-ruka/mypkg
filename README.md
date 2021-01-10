@@ -3,10 +3,10 @@
 2021年度ロボットシステム学の課題２の提出用リポジトリです。
 今年の運勢を占えます。ぜひお試しを
 # 動作環境
--ubuntu 20.04.1 LTS
+- ubuntu 20.04.1 LTS
 # 使用したもの
--Raspberry pi 4
--Micro SD Card
+- Raspberry pi 4
+-  Micro SD Card
 # デモ動画
 # インストール方法
 ROSを予めインストールしておいてください。
@@ -18,16 +18,16 @@ catkin_make
 ```
 # 実行方法
 以下のコマンドで実行できます
--ターミナル1
+- ターミナル1
 ```
 roscore
 ```
--ターミナル2
+- ターミナル2
 ```
 cd ~/catkin_ws/src/mypkg/scripts
 rosrun mypkg omi.py
 ```
--ターミナル3
+- ターミナル3
 ```
 cd ~/catkin_ws/src/mypkg/scripts
 rosrun mypkg henkan.py
