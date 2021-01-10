@@ -12,7 +12,25 @@
 ROSを予めインストールしておいてください。
 ```
 cd ~/catkin_ws/src
-git clone 
+git clone https://github.com/sakurai-ruka/mypkg.git 
 cd ..
 catkin_make
 ```
+# 実行方法
+以下のコマンドで実行できます
+-ターミナル1
+```
+roscore
+```
+-ターミナル2
+```
+cd ~/catkin_ws/src/mypkg/scripts
+rosrun mypkg omi.py
+```
+-ターミナル3
+```
+cd ~/catkin_ws/src/mypkg/scripts
+rosrun mypkg henkan.py
+```
+# ライセンス
+BCD 3-Clause License
