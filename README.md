@@ -8,6 +8,7 @@
 - Raspberry pi 4
 -  Micro SD Card
 # デモ動画
+[![おみくじ](https://www.youtube.com/watch?v=qE2sXgm62OQ&feature=youtu.be)
 # インストール方法
 ROSを予めインストールしておいてください。
 ```
